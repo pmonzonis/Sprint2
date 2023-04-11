@@ -1,0 +1,28 @@
+/*CUSTOM VARIABLES*/
+
+$primary:  #5265E1;
+$secondary: #FA5959 ;
+$font-family-sans-serif:'Schibsted Grotesk', sans-serif;
+$navbar-light-toggler-border-color: white;
+$navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='black'  stroke-miterlimit='10' stroke-width='3.7' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
+
+
+/*BOOSTRAP*/
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+/*CUSTOM CSS*/
+
+.nav-link, .login{
+    letter-spacing: 2px; 
+}
+
+.bg-hero{
+    margin: 100px -380px 0 0 ;   
+    border-bottom-left-radius: 160px;
+    padding-bottom: 30px; 
+}
+
+#hero{
+    margin: -60px -200px ;        
+}
