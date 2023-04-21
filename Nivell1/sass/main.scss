@@ -5,6 +5,10 @@ $secondary: #FA5959 ;
 $font-family-sans-serif:'Schibsted Grotesk', sans-serif;
 $navbar-light-toggler-border-color: white;
 $navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='black'  stroke-miterlimit='10' stroke-width='3.7' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
+$text-muted: rgb(160, 158, 158);
+$nav-link-color:  rgb(58, 58, 58);              
+$nav-tabs-link-active-color:   rgb(12, 12, 12);
+$nav-tabs-link-active-border-color: transparent;
 
 
 /*BOOSTRAP*/
@@ -25,4 +29,87 @@ $navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://w
 
 #hero{
     margin: -60px -200px ;        
+}
+
+.bg-feautures{    
+    margin: 100px 0; 
+    border-bottom-right-radius: 160px;
+    padding-bottom: 40px;
+    margin-left: -100px;
+}
+
+#imgFeautures{
+    margin-top: -50px;
+    margin-left:  200px;
+    width: 80%;
+}
+
+#imgFeautures2{
+    margin-top: -50px;
+    margin-left:  260px;
+    width: 80%;
+}
+
+#myTab .nav-item .active{
+    border-bottom: 4px solid $secondary; 
+    color: black;    
+}
+
+#myTab .nav-item .not-active{    
+    color: grey;    
+}
+
+/*MOBILE*/
+@media (max-width: 575.98px){
+    #myTab .nav-tabs{
+        border-color: transparent;
+    }
+    
+    #myTab .nav-item{
+        width: 85%;
+        border-top: 2px solid $gray-300 ; 
+        
+        &:last-child{
+            
+            border-bottom: 2px solid $gray-300 ;            
+        }       
+    }    
+    
+
+    #simple-tab, #speedy-tab, #easy-tab{
+        margin: 0 auto;        
+    }
+
+   
+    #myTab .nav-item .active{
+        border-bottom: 4px solid $secondary; 
+        color: black;  
+    }
+    
+    #myTab .nav-item .not-active{    
+        color: grey;    
+    }
+
+    //Cambiar visibilidad boton ejercicio2
+    #btMoreInfo{
+        visibility: hidden;
+    }
+
+    .features-decription, .features-decription2{
+        margin-top: -100px; 
+        margin-left: -80px;
+         
+    }
+
+    .features-decription p, h2{        
+        margin:0 -100px;        
+    }
+   
+
+    .features-decription2 p, h2{        
+        margin:0 -140px;        
+    }
+
+   
+
 }

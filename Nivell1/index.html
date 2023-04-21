@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sprint2 by Paula Monzonis</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="sass/main.css">
+   
 </head>
 <body>
 
@@ -45,7 +46,7 @@
             <div class="col-12  ps-5 col-lg-7  bg-primary bg-hero" >
                 <img src="imagenes/illustration-hero.svg"  
                 alt="illustration-hero"                  
-                class="img-fluid w-100 w-75"
+                class="img-fluid"
                 id="hero">
             </div>
             <div class="col-12 col-lg-5 pt-5 ps-5 me-4 align-items-center text-center text-lg-start">
@@ -57,6 +58,90 @@
                 <button type="button" class="btn btn-light text-body fw-bold mt-3 ms-3 pt-3 pb-3 ps-3 pe-3 shadow p-3 ">Get it on Firefox</button>                    
             </div>          
         </div>
-    </div>     
-</body>
+    </div>  
+    
+    <!--FEATURES SECTION-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-3"></div>
+            <div class="col-12  col-lg-6 text-center align-items-center mt-5 pe-5"  >
+                <h2 class="mt-5 text-body fw-bold">Features</h2>
+                <p class="'me-5 ms-5 mt-3 text-muted">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync 
+                    between your devices so you can access them on the go.
+                </p>                             
+            </div>            
+        </div>
+        <div class="row mt-5">      
+                <div class="col-12 col-lg-2"></div>             
+                <div class="col-12 col-lg-8 justify-content-start">
+                <ul class=" container nav nav-tabs flex-column justify-content-center align-content-stretch align-items-center flex-lg-row gx-5 gy-5 " id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active text-capitalize  fw-bold    pb-3" id="simple-tab" data-bs-toggle="tab" data-bs-target="#simple" type="button" role="tab" aria-controls="simple" aria-selected="true">Simple bookmarking</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link not-active text-capitalize   fw-bold pb-3" id="speedy-tab" data-bs-toggle="tab" data-bs-target="#speedy" type="button" role="tab" aria-controls="speedy" aria-selected="false">Speedy searching</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link not-active text-capitalize   fw-bold  pb-3 " id="easy-tab" data-bs-toggle="tab" data-bs-target="#easy" type="button" role="tab" aria-controls="easy" aria-selected="false">Easy sharing</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row me-5 ">
+                <div class="col-12 ms-5">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="simple" role="tabpanel" aria-labelledby="simple-tab" tabindex="1">
+                        <div class="row gx-5  d-flex justify-content-start justify-content-lg-between pe-5 align-self-start" >
+                            <div class=" col-12 col-lg-6 gx-5 bg-primary bg-feautures offset-4" >
+                                <img src="imagenes/illustration-features-tab-1.svg" 
+                                alt="Features" 
+                                id="imgFeautures" 
+                                class="img-fluid">
+                            </div>
+                            <div class=" col-12 col-lg-6 gx-5  gy-5 text-lg-start text-center  align-items-center  features-decription">
+                                <h2 class="fw-bold mt-5 ms-5">Bookmark in one click</h2>
+                                <p class=" align-items-center text-muted  mt-3 ms-5 ">Organize your bookmarks however you like. Our simple darg-and-drop interface gives you complete control  over hovw you manage  your favourite sites.</p>
+                                <button class=" mt-3 ms-5 btn btn-primary fw-bold" type="button" id="btMoreInfo">More info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane  fade show not-active" id="speedy" role="tabpanel" aria-labelledby="speedy-tab" tabindex="2">
+                        <div class="row gx-5  me-5 d-flex justify-content-start justify-content-lg-between pe-5 align-self-start" >
+                            <div class=" col-12 col-lg-6 gx-5 me-5 bg-primary bg-feautures" >
+                                <img src="imagenes/illustration-features-tab-2.svg" 
+                                alt="Features" 
+                                id="imgFeautures2" 
+                                class="img-fluid ">
+                            </div>
+                            <div class=" col-12 col-lg-5 gx-5  gy-5 text-lg-start text-center align-items-center   features-decription2">
+                                <h2 class="fw-bold mt-5 ms-5">Intelligent search</h2>
+                                <p class=" align-items-center text-muted  mt-3 ms-5 ">Our poweful search feauture help you find saved sites in no time at all.No need to trawl through all
+                                    of your bookmarks.
+                                </p>
+                                <button class=" mt-3 ms-5 btn btn-primary fw-bold" type="button" id="btMoreInfo">More info</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane  fade show not-active" id="easy" role="tabpanel" aria-labelledby="easy-tab" tabindex="3"> 
+                        <div class="row gx-5  me-5 d-flex justify-content-center justify-content-lg-between pe-5 align-self-start" >
+                            <div class=" col-12 col-lg-6 gx-5 me-5 bg-primary bg-feautures" >
+                                <img src="imagenes/illustration-features-tab-3.svg" 
+                                alt="Features" 
+                                id="imgFeautures2" 
+                                class="img-fluid ">
+                            </div>
+                            <div class=" col-12 col-lg-5 gx-5  gy-5 text-lg-start text-center align-items-center   features-decription2">
+                                <h2 class="fw-bold mt-5 ms-5 ">Share your bookmarks</h2>
+                                <p class=" align-items-center text-muted  mt-3 ms-5 ">Easily share your bookmarks and collections with other. Create a shareable link that you can send at
+                                    the click of a button.
+                                </p>
+                                <button class=" mt-3 ms-5 btn btn-primary fw-bold" type="button" id="btMoreInfo">More info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div> 
+        </div>
+    </body>
 </html>
