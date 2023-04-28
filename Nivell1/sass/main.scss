@@ -1,5 +1,6 @@
 /*CUSTOM VARIABLES*/
 
+
 $primary:  #5265E1;
 $secondary: #FA5959 ;
 $font-family-sans-serif:'Schibsted Grotesk', sans-serif;
@@ -14,7 +15,7 @@ $accordion-button-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/20
 
 
 /*BOOSTRAP*/
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 
 /*CUSTOM CSS*/
