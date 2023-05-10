@@ -18,6 +18,8 @@ $info: rgb(36, 36, 70);
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
+
+
 /*CUSTOM CSS*/
 
 .nav-link, .login{
@@ -25,13 +27,13 @@ $info: rgb(36, 36, 70);
 }
 
 .bg-hero{
-    margin: 100px -380px 0 0 ;   
+    margin: 100px 0 0 0 ;   
     border-bottom-left-radius: 160px;
     padding-bottom: 30px; 
 }
 
 #hero{
-    margin: -60px -200px ;        
+    margin: -60px -100px ;        
 }
 
 .bg-feautures{    
